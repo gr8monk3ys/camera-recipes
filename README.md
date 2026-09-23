@@ -1,5 +1,10 @@
 <img src="src/interfaces/static/images/filmcase_primary_aligned_readme.png" alt="Filmcase" width="400">
 
+> **This fork (camera-recipes)** adds my X-T30 II recipe lineup and camera settings in
+> [`lineups/x-t30-ii/`](lineups/x-t30-ii/README.md), and a `camera_lineup` command that pushes
+> a whole lineup to the camera and verifies every slot by reading it back. Upstream:
+> [gosku/Filmcase](https://github.com/gosku/Filmcase).
+
 Filmcase is a Django application for managing Fujifilm camera recipes and browsing your image catalog. It reads EXIF data from your JPEG files, matches images to the Fujifilm recipe they were shot with, and lets you filter and group your catalog by recipe. You can push recipes directly to your camera over USB and explore relationships between recipes through an interactive graph.
 
 Read more about it in our [documentation index](docs/index.md).
